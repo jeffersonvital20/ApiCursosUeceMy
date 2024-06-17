@@ -1,5 +1,6 @@
-﻿using ApiCursosUeceMy.Domain.Request.Command;
-using ApiCursosUeceMy.Domain.Request.Query;
+﻿using ApiCursosUeceMy.Domain.Request.Command.AulaCommands;
+using ApiCursosUeceMy.Domain.Request.Command.CursoCommands;
+using ApiCursosUeceMy.Domain.Request.Query.CursoQueries;
 
 namespace ApiCursosUeceMy.Infra.Dependeces;
 

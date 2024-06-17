@@ -1,7 +1,7 @@
 ﻿using ApiCursosUeceMy.Domain.Interfaces;
 using ApiCursosUeceMy.Domain.Model;
-using ApiCursosUeceMy.Domain.Request.Query;
-using ApiCursosUeceMy.ViewModels;
+using ApiCursosUeceMy.Domain.Request.Query.CursoQueries;
+using ApiCursosUeceMy.ViewModels.CursoViewModel;
 using MediatR;
 using OperationResult;
 

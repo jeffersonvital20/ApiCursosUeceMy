@@ -1,7 +1,6 @@
-﻿using ApiCursosUeceMy.Domain.Model;
-using ApiCursosUeceMy.Domain.Request.Command;
-using ApiCursosUeceMy.Domain.Request.Query;
-using ApiCursosUeceMy.ViewModels;
+﻿using ApiCursosUeceMy.Domain.Request.Command.CursoCommands;
+using ApiCursosUeceMy.Domain.Request.Query.CursoQueries;
+using ApiCursosUeceMy.ViewModels.CursoViewModel;
 using ApiCursoUeceMy.Controllers.Base;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;

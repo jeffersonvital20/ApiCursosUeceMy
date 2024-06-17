@@ -1,7 +1,6 @@
-﻿using ApiCursosUeceMy.Domain.Model;
-using ApiCursosUeceMy.Domain.Request.Command;
-using ApiCursosUeceMy.Domain.Request.Query;
-using ApiCursosUeceMy.ViewModels;
+﻿using ApiCursosUeceMy.Domain.Request.Command.AulaCommands;
+using ApiCursosUeceMy.Domain.Request.Query.AulaQueries;
+using ApiCursosUeceMy.ViewModels.AulaViewModel;
 using ApiCursoUeceMy.Controllers.Base;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -25,12 +24,22 @@ public class AulaController : AppControllerBase
     public Task<IActionResult> GetAll()
         => SendRequest(new AulaGetAllQuery());
 
-    //[HttpPatch("update")]
-    //public Task<IActionResult> Update([FromBody] GetCursoViewModel input)
-    //    => SendRequest(new UpdateCursoRequest(input));
+    [HttpGet("getAulasCurso")]
+    public Task<IActionResult> GetAulasCurso([FromQuery] Guid id) => SendRequest(new GetAulasCursoQuery(id));
 
-    //[HttpDelete("delete")]
-    //public Task<IActionResult> Delete([FromQuery] string id)
-    //    => SendRequest(new Delete { entity }Request(id));
+    [HttpPatch("update")]
+    public Task<IActionResult> Update([FromBody] UpdateAulaViewModel input)
+        => SendRequest(new UpdateAulaRequest(input));
 
+//    [HttpDelete("delete")]
+//    public Task<IActionResult> Delete([FromQuery] string id)
+//        => SendRequest(new DeleteAulaRequest(id));
+
+//    [HttpPatch("updateRecurso")]
+//    public Task<IActionResult> UpdateRecuros([FromBody] CreateAulaViewModel input)
+//        => SendRequest(new UpdateRecursoAulaRequest(input));
+
+//    [HttpPatch("salvarRecurso")]
+//    public Task<IActionResult> SalvarRecuros([FromBody] CreateAulaViewModel input)
+//        => SendRequest(new SalvarRecursoAulaRequest(input));
 }

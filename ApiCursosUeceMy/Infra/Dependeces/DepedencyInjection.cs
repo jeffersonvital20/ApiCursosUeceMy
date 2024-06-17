@@ -1,4 +1,6 @@
 ﻿using ApiCursosUeceMy.Domain.Interfaces;
+using ApiCursosUeceMy.Domain.Services.Interface;
+using ApiCursosUeceMy.Domain.Services.Streaming;
 using ApiCursosUeceMy.Infra.Repositories;
 
 namespace ApiCursosUeceMy.Infra.Dependeces;
@@ -14,5 +16,6 @@ public static class DepedencyInjection
     {
         services.AddScoped<ICursoRepository, CursoRepository>();
         services.AddScoped<IAulaRepository, AulaRepository>();
-    }
+        services.AddScoped<IStreamServices, StreamServices>();
+    }                                                         
 }

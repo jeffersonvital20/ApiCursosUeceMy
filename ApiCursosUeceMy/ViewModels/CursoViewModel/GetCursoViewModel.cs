@@ -1,4 +1,4 @@
-﻿namespace ApiCursosUeceMy.ViewModels;
+﻿namespace ApiCursosUeceMy.ViewModels.CursoViewModel;
 
 public class GetCursoViewModel
 {

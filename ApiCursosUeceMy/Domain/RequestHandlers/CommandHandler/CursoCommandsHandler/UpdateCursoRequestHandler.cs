@@ -1,11 +1,9 @@
 ﻿using ApiCursosUeceMy.Domain.Interfaces;
-using ApiCursosUeceMy.Domain.Request.Command;
-using ApiCursosUeceMy.ViewModels;
+using ApiCursosUeceMy.Domain.Request.Command.CursoCommands;
 using MediatR;
-using Microsoft.AspNetCore.Http.HttpResults;
 using OperationResult;
 
-namespace ApiCursosUeceMy.Domain.RequestHandlers.CommandHandler;
+namespace ApiCursosUeceMy.Domain.RequestHandlers.CommandHandler.CursoCommandsHandler;
 
 public class UpdateCursoRequestHandler : IRequestHandler<UpdateCursoRequest, Result<bool>>
 {

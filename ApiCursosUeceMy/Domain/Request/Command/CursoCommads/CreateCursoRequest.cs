@@ -1,9 +1,9 @@
 ﻿using ApiCursosUeceMy.Domain.Validation;
-using ApiCursosUeceMy.ViewModels;
+using ApiCursosUeceMy.ViewModels.CursoViewModel;
 using MediatR;
 using OperationResult;
 
-namespace ApiCursosUeceMy.Domain.Request.Command
+namespace ApiCursosUeceMy.Domain.Request.Command.CursoCommands
 {
     public class CreateCursoRequest : IRequest<Result<CreateCursoViewModel>>, IValidatable
     {

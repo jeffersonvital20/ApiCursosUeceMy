@@ -1,10 +1,9 @@
-﻿using ApiCursosUeceMy.Domain.Model;
-using ApiCursosUeceMy.Domain.Validation;
-using ApiCursosUeceMy.ViewModels;
+﻿using ApiCursosUeceMy.Domain.Validation;
+using ApiCursosUeceMy.ViewModels.CursoViewModel;
 using MediatR;
 using OperationResult;
 
-namespace ApiCursosUeceMy.Domain.Request.Query
+namespace ApiCursosUeceMy.Domain.Request.Query.CursoQueries
 {
     public class CursoGetByIdQuery : IRequest<Result<GetCursoViewModel>>, IValidatable
     {

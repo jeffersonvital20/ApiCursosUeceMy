@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "aula",
-        "Type": "ApiCursosUeceMy.ViewModels.CreateAulaViewModel",
+        "Type": "ApiCursosUeceMy.ViewModels.AulaViewModel.CreateAulaViewModel",
         "IsRequired": true
       }
     ],
@@ -23,6 +23,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiCursosUeceMy.Controllers.AulaController",
+    "Method": "GetAulasCurso",
+    "RelativePath": "api/Aula/getAulasCurso",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -42,6 +58,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ApiCursosUeceMy.Controllers.AulaController",
+    "Method": "Update",
+    "RelativePath": "api/Aula/update",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "input",
+        "Type": "ApiCursosUeceMy.ViewModels.AulaViewModel.UpdateAulaViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ApiCursosUeceMy.Controllers.CursoController",
     "Method": "Create",
     "RelativePath": "api/Curso/create",
@@ -51,7 +83,7 @@
     "Parameters": [
       {
         "Name": "curso",
-        "Type": "ApiCursosUeceMy.ViewModels.CreateCursoViewModel",
+        "Type": "ApiCursosUeceMy.ViewModels.CursoViewModel.CreateCursoViewModel",
         "IsRequired": true
       }
     ],
@@ -93,7 +125,7 @@
     "Parameters": [
       {
         "Name": "input",
-        "Type": "ApiCursosUeceMy.ViewModels.GetCursoViewModel",
+        "Type": "ApiCursosUeceMy.ViewModels.CursoViewModel.GetCursoViewModel",
         "IsRequired": true
       }
     ],

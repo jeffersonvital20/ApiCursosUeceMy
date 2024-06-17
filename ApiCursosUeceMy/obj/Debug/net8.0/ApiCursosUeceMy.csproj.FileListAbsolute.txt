@@ -123,6 +123,7 @@ C:\Users\jeffe\Documents\arquivos\Projetos\ApiCursosUeceMy\ApiCursosUeceMy\obj\D
 C:\Users\jeffe\Documents\arquivos\Projetos\ApiCursosUeceMy\ApiCursosUeceMy\obj\Debug\net8.0\ApiCursosUeceMy.csproj.CoreCompileInputs.cache
 C:\Users\jeffe\Documents\arquivos\Projetos\ApiCursosUeceMy\ApiCursosUeceMy\obj\Debug\net8.0\ApiCursosUeceMy.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\jeffe\Documents\arquivos\Projetos\ApiCursosUeceMy\ApiCursosUeceMy\obj\Debug\net8.0\ApiCursosUeceMy.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jeffe\Documents\arquivos\Projetos\ApiCursosUeceMy\ApiCursosUeceMy\obj\Debug\net8.0\ApiCursosUeceMy.sourcelink.json
 C:\Users\jeffe\Documents\arquivos\Projetos\ApiCursosUeceMy\ApiCursosUeceMy\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\jeffe\Documents\arquivos\Projetos\ApiCursosUeceMy\ApiCursosUeceMy\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\jeffe\Documents\arquivos\Projetos\ApiCursosUeceMy\ApiCursosUeceMy\obj\Debug\net8.0\staticwebassets\msbuild.ApiCursosUeceMy.Microsoft.AspNetCore.StaticWebAssets.props
